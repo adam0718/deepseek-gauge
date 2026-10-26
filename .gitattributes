@@ -1,0 +1,6 @@
+# 批处理必须是 CRLF：cmd.exe 对 LF-only 的 goto/label 处理不稳
+*.bat text eol=crlf
+
+# 二进制资源不要做换行转换
+*.ico binary
+*.png binary
